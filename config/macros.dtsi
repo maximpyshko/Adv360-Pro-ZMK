@@ -2,19 +2,19 @@ macro_fourth_app: macro_fourth_app{
 compatible = "zmk,behavior-macro";
 label = "macro_fourth_app";
 #binding-cells = <0>;
-bindings = <&sk LCTRL>, <&sk LEFT_ALT>, <&kp NUMBER_4>;
+bindings = <&kp LCTRL>, <&kp LEFT_ALT>, <&kp NUMBER_4>;
 };
 macro_third_app: macro_third_app{
 compatible = "zmk,behavior-macro";
 label = "macro_third_app";
 #binding-cells = <0>;
-bindings = <&sk LCTRL>, <&sk LEFT_ALT>, <&kp NUMBER_3>;
+bindings = <&kp LCTRL>, <&kp LEFT_ALT>, <&kp NUMBER_3>;
 };
 macro_second_app: macro_second_app{
 compatible = "zmk,behavior-macro";
 label = "macro_second_app";
 #binding-cells = <0>;
-bindings = <&sk LCTRL>, <&sk LEFT_ALT>, <&kp NUMBER_2>;
+bindings = <&kp LCTRL>, <&kp LEFT_ALT>, <&kp NUMBER_2>;
 };
 macro_first_app: macro_first_app{
 compatible = "zmk,behavior-macro";
